@@ -6,5 +6,11 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
+<<<<<<< HEAD
 turn(board)
+=======
+puts "Please enter 1-9:"
+input = gets.strip
+turn(board, input)
+>>>>>>> a64b5168c8a8daf2876e5777f6c89e6959b5d02d
 
